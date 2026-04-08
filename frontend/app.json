@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "AI Newsletter",
+    "slug": "ai-newsletter",
+    "version": "1.0.0",
+    "scheme": "ai-newsletter",
+    "platforms": ["ios", "android", "web"],
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.ainewsletter.app"
+    },
+    "android": {
+      "package": "com.ainewsletter.app"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router"]
+  }
+}
